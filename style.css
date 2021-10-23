@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo&display=swap');
 
 * {
     padding: 0;
@@ -51,10 +51,58 @@ header nav a {
 }
 
 #first-page img {
-    width: 85%;
-    height: 85%;
-    position: absolute;
-    right: 0;
+    width: 50%;
 }
 
+/* projects */
+
+
 /* about me */
+#about-me {
+    background-color: #6c63ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-me div img {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about-me div h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+#about-me p {
+    width: 130px;
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+}
+
+#about-me span {
+    color: red;
+}
+
+#about-me #left {
+    text-align: left;
+}
+
+#about-me #right {
+    text-align: right;
+}
+
+/* contact */
+
+/* footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
